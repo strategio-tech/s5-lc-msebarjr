@@ -6,14 +6,20 @@ public class LoanCalculator {
 
     /**
      * TODO: finish out this JavaDoc comment block.
-     * FIXME: WHAT DOES THIS METHOD DO?
+     * <p>This method will calculate the remaining amount owed on a loan after 3 months of payments</p>
      * 
-     * @param ???
-     * @return ???
+     * @param amount the loan amount taken out
+     * @return the remaining amount of the loan after 3 months of payments
      */
     static int getRemainingAmountIn3Months(int amount) {
         // TODO: Rewrite this method
-        return -1;
+        float paymentPercentage = .10f;
+
+        for (int x = 0; x <= 2; x++ ) {
+            amount -=  (int)(amount * paymentPercentage);
+        }
+
+        return amount;
     }
 
     public static void main(String[] args) {
