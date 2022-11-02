@@ -6,7 +6,7 @@ public class LoanCalculator {
 
     /**
      * TODO: finish out this JavaDoc comment block.
-     * <p>This method will calculate the remaining amount owed on a loan after 3 months of payments</p>
+     * <p>This method will calculate the remaining amount owed on a loan after 3 months of payment</p>
      * 
      * @param amount the loan amount taken out
      * @return the remaining amount of the loan after 3 months of payments
